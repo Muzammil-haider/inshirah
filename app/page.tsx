@@ -8,12 +8,12 @@ const noTexts = [
   "Really? 😑",
   "Are you serious? 😐",
   "Last chance 😤",
-  "Aloo bht hugai ab bachodi😭",
-  "yes kr bhi de 😭",
-  "bht hurha aab tera boil egg",
-  "game khelne aiy he kia? moti😤",
-  "Aloo masti nhiii😤",
-  "Aloo hugai teri bachodi aab yes kr😤"
+  "bht hugai ab bachodi😭",
+  "yes kr bhi de sawera 😭",
+  "bht hurha aab tera",
+  "game khelne aiy he kia?😤",
+  "goli masti nhiii😤",
+  "sawera hugai teri bachodi aab yes kr😤"
 ];
   const hearts = ["❤️", "💖", "💘", "💝", "💗"];
   const BLAST_COUNT = 50; // 🔥 jitna zyada, utna blast
@@ -64,7 +64,7 @@ const handleYesClick = () => {
 )}
 
 
-      {!showLove && <h1 style={styles.text}>Inshirah will you be my Valentine? 💖</h1>}
+      {!showLove && <h1 style={styles.text}>Sawera will you be my Valentine? 💖</h1>}
 
       {/* YES button (normal) */}
         {showImage && !showLove && (
@@ -132,9 +132,9 @@ const handleYesClick = () => {
 
     {/* Romantic Text */}
     <h2 style={styles.romanticText}>
-      I knew you’d say yes! You’re amazing dumboo 😍💖
+      I knew you’d say yes! You’re amazing 😍💖
       <br></br>
-      from Muzammil
+      from Mubashir
 
     </h2>
   </div>
@@ -188,7 +188,7 @@ gif: {
 romanticText: {
   fontSize: "2rem",
   color: "#fff",
-  fontWeight: "bold",
+  fontWeight: "normal",
   textShadow: "2px 2px 8px rgba(0,0,0,0.7)",
 },
 
